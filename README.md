@@ -11,6 +11,16 @@ Flightcheck for website release.
 - does the site work and make sense on every device?
 - does the printstyling make sense? It's also used for saving to PDF!
 - does the site make sense on a screenreader?
+- is a sitemap.xml being generated or has it been added manually?
+
+## Deployment
+- choose www/non-www and redirect the other
+- are there aliases for the domain and do they work?
+- is the .htaccess in order?
+- security check: is everything that should not be accessible not accessible? Dev resources etc..
+
+## Migrating a site?
+- make old content available (when applicable with 301 redirects)
 
 ## Functionality
 - check if forms store data or send mail as expected
@@ -28,4 +38,5 @@ Flightcheck for website release.
 - Do share buttons work?
 - Open Graph tags (http://ogp.me, check them: https://developers.facebook.com/tools/debug/)
 - Google Analytics or some other analytics needed?
+- Google Search Console (and integration with Google Analytics) if applicable
 - Apply schema.org markup where applicable https://schema.org/
