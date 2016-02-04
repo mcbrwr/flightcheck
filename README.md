@@ -11,7 +11,6 @@ Flightcheck for website release.
 - does the site work and make sense on every device?
 - does the printstyling make sense? It's also used for saving to PDF!
 - does the site make sense on a screenreader?
-- 
 
 ## Functionality
 - check if forms store data or send mail as expected
